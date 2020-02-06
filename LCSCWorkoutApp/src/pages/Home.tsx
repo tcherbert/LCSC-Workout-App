@@ -5,12 +5,6 @@ import React from 'react';
 
 
 
-const catImage = 'http://placekitten.com/g/200/300';
-
-
-console.log(catImage);
-
-
 
 
 const Home: React.FC = () => {
@@ -23,8 +17,8 @@ const Home: React.FC = () => {
       </IonHeader>
       <IonContent className="ion-padding">
         <header>
-            {/* <img src="images/Logo_screenDPI-01.png" alt="Gym warrior Logo" className="center" /> */}
             <IonImg className="center" src="http://isoptera.lcsc.edu/~tcherbert/cs480/landing_logo.png" />
+            
         </header>
 
         <main>

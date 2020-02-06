@@ -77,14 +77,12 @@ http://ionicframework.com/docs/theming/ */
 
 
   --ion-background-color: #D02027;
+  --ion-font-family: 'Open Sans', sans-serif;
 }
 
-
-
-
-/*
-
-*/
+ion-header {
+  box-shadow: 0px 0px 3px #333;
+}
 
 
 form {
@@ -100,13 +98,23 @@ div {
 
 /* Full-width inputs */
 input.native-input {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
+  width: 100% !important;
+  padding: 12px 20px !important;
+  margin: 8px 0 !important;
+  display: inline-block !important;
+  border: 1px solid #ccc !important;
+  box-sizing: border-box !important;
+  background: #ffffff !important;
+}
+
+input.native-input {
   background: #ffffff;
+  color: #333;
+  border-radius: 15px !important;
+  padding: 3px 15px;
+  margin: 0px 0px 10px 0px;
+  line-height: 50px;
+  border: 8px solid #AC0002 !important;
 }
 
 .native-input.sc-ion-input-md {
@@ -181,6 +189,15 @@ button[type="submit"]:active {
 Header Section
 */
 .logo {
-  display: inline-block;
   max-width: 75px;
+  float: left;
+}
+
+ion-title.ios {
+  background: #D02027;
+}
+
+
+.plt-ios {
+  padding-top: 10px;
 }
