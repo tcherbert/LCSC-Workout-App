@@ -177,9 +177,7 @@ button[type="submit"]:active {
 
 
 
-.ion-page {
-  background: #D02027;
-}
+
 
 
 
@@ -193,11 +191,49 @@ Header Section
   float: left;
 }
 
-ion-title.ios {
+/* ion-title.ios {
+  background: #D02027;
+} */
+/* .ion-page {
+  background: #D02027;
+} */
+
+.title-default {
   background: #D02027;
 }
 
 
-.plt-ios {
-  padding-top: 10px;
+/* .ios.header-ios {
+  padding-top: 0px ;
+} */
+/* .ios.header-ios {
+  padding-top: 30px;
+} */
+/* .ios.title-ios {
+  padding: 0px;
+}  */
+
+
+/* ion-toolbar.ios {
+  padding-top: 0px !important;
+}
+ion-title.ios {
+  padding-top: 0px !important;
+  -webkit-padding-start: 0px;
+  padding-inline-start: 0px;
+  -webkit-padding-end: 0px;
+  padding-inline-end: 0px;
+} */
+
+ion-toolbar.ios {
+  padding-top: 0px !important;
+  margin-top: 20px;
+}
+
+ion-title.ios {
+  padding-top: 0px !important;
+  -webkit-padding-start: 0px;
+  padding-inline-start: 0px;
+  -webkit-padding-end: 0px;
+  padding-inline-end: 0px;
 }
