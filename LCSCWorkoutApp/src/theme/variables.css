@@ -74,4 +74,113 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+
+  --ion-background-color: #D02027;
+}
+
+
+
+
+/*
+
+*/
+
+
+form {
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+  letter-spacing: 1px;
+}
+
+div {
+  border-radius: 50px;
+}
+
+/* Full-width inputs */
+input.native-input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background: #ffffff;
+}
+
+.native-input.sc-ion-input-md {
+  background: #ffffff;
+  color: #333;
+  border-radius: 15px;
+  padding: 3px 15px;
+  margin: 0px 0px 10px 0px;
+  line-height: 50px;
+  border: 8px solid #AC0002;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+}
+/* Set a style for all buttons */
+button[type="submit"] {
+  background-color: #FF3233;
+  border: 8px solid #AC0002;
+  border-radius: 10px;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 80px;
+  font-size: 1em;
+  letter-spacing: 1px;
+}
+button[type="submit"]:active {
+  border: 8px solid rgb(99, 5, 7);
+  outline: none;
+}
+
+
+
+
+
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+
+
+.ion-page {
+  background: #D02027;
+}
+
+
+
+
+
+/*
+Header Section
+*/
+.logo {
+  display: inline-block;
+  max-width: 75px;
 }
