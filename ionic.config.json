@@ -1,0 +1,7 @@
+{
+  "name": "LCSC-Workout-App",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
