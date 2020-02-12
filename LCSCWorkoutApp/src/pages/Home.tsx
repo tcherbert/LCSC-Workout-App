@@ -18,7 +18,6 @@ const Home: React.FC = () => {
       <IonContent className="ion-padding">
         <header>
             <IonImg className="center" src="./assets/img/landing_logo.png"></IonImg>
-            {/* http://isoptera.lcsc.edu/~tcherbert/cs480/landing_logo.png */}
         </header>
 
         <main>
