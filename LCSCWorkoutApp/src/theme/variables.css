@@ -178,7 +178,7 @@ button[type="submit"]:active {
   float: right;
 }
 #navbar{
-  margin-top: 31.5em;
+  margin-top: 19.7em;
   padding: 0;
 }
 
@@ -194,6 +194,7 @@ button[type="submit"]:active {
 /* Add padding to containers */
 .container {
   padding: 16px;
+  
 }
 
 
@@ -214,9 +215,12 @@ button[type="submit"]:active {
     max-width: 100%;
     height: auto;
   }
-  #nav li{
-    font-size: 120%;
-    margin-left: 0.3em;
+  
+}
+@media screen and (max-width: 800px){
+  #navbar{
+    font-size: 100%;
+    margin-top: 19.75em;
   }
 }
 
