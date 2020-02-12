@@ -1,6 +1,6 @@
 {
-  "appId": "io.ionic.starter",
-  "appName": "LCSC-Workout-App",
+  "appId": "com.LCSCWorkoutApp.app",
+  "appName": "LCSC Workout App",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "build",

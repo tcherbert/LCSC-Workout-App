@@ -1,8 +1,6 @@
 {
   "appId": "com.LCSCWorkoutApp.app",
-  "appName": "LCSCWorkoutApp",
-  "bundledWebRuntime": false,
-  "npmClient": "npm",
-  "webDir": "build",
-  "cordova": {}
+  "appName": "LCSC-Workout-App",
+  "webDir": "www",
+  "npmClient": "npm"
 }
