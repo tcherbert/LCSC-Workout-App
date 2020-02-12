@@ -1,6 +1,7 @@
 {
   "appId": "com.LCSCWorkoutApp.app",
   "appName": "LCSC-Workout-App",
-  "webDir": "www",
+  "webDir": "build",
   "npmClient": "npm"
 }
+
