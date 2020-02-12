@@ -20,9 +20,11 @@ const Profile: React.FC = () => {
           
         </IonHeader>
         <IonContent className="ion-padding">
+
     <main>
+      <div className ="container">
       
-      <img className="profile responsive" height='500' src = {profilePic} ></img>
+      <img className="profile responsive" height='300' alt ="User Profile" src = {profilePic} ></img>
       <IonNav id = "navbar" className="center">
           <ul id ="nav">
               <li id="about">About</li>
@@ -31,6 +33,7 @@ const Profile: React.FC = () => {
               <li id = "schedule">Schedule</li>
           </ul>
       </IonNav>
+      </div>
     </main>
         </IonContent>
       </IonPage>
