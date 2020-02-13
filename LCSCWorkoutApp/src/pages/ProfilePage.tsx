@@ -24,7 +24,7 @@ const Profile: React.FC = () => {
     <main>
       <div className ="container">
       
-      <img className="profile responsive" height='300' alt ="User Profile" src = {profilePic} ></img>
+      <img className="profile responsive" height='600' alt ="User Profile" src = {profilePic} ></img>
       <IonNav id = "navbar" className="center">
           <ul id ="nav">
               <li id="about">About</li>

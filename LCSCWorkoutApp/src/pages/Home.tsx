@@ -1,6 +1,6 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonInput, IonImg } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonInput, IonImg,IonButton } from '@ionic/react';
 import React from 'react';
-
+import {Link} from 'react-router-dom';
 
 
 
@@ -17,7 +17,7 @@ const Home: React.FC = () => {
       </IonHeader>
       <IonContent className="ion-padding">
         <header>
-            <IonImg className="center" src="./assets/img/landing_logo.png"></IonImg>
+            <IonImg className="centerLogo" src="./assets/img/landing_logo.png"></IonImg>
         </header>
 
         <main>
@@ -25,7 +25,7 @@ const Home: React.FC = () => {
                 <form>
                   <IonInput type="text" placeholder="Enter Username" name="uname" required />
                   <IonInput type="password" placeholder="Enter Password" name="psw" required />
-                  <button type="submit">Login</button>
+                  <Link to="/profile"> <button type="submit" className="submitButton">Login</button></Link>
                 </form>
             </section>
         </main>
