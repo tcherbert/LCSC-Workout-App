@@ -131,13 +131,19 @@ input.native-input {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  max-width: 700px;
+}
+.centerLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 500px;
 }
 .profile{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 500px;
+  width: 250em;
 }
 
 /* Set a style for all buttons */
@@ -167,8 +173,7 @@ button[type="submit"]:active {
   list-style-type: none;
   display: inline;
  
-  font-size: 170%;
-  padding-right:0.5em;
+  font-size: 300%;
 }
 
 .icon{
@@ -178,7 +183,7 @@ button[type="submit"]:active {
   float: right;
 }
 #navbar{
-  margin-top: 19.7em;
+  margin-top: 33.7em;
   padding: 0;
 }
 
@@ -194,7 +199,7 @@ button[type="submit"]:active {
 /* Add padding to containers */
 .container {
   padding: 16px;
-  
+  margin-top: -5em;
 }
 
 
