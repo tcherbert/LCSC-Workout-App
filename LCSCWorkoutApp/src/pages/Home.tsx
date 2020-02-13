@@ -25,7 +25,7 @@ const Home: React.FC = () => {
                 <form>
                   <IonInput type="text" placeholder="Enter Username" name="uname" required />
                   <IonInput type="password" placeholder="Enter Password" name="psw" required />
-                  <Link to="/profile"> <button type="submit" className="submitButton">Login</button></Link>
+                  <Link to="/profile"> <button type="submit">Login</button></Link>
                 </form>
             </section>
         </main>
