@@ -3,6 +3,8 @@ import React from 'react';
 import {faSearch, faBars, faGrinAlt} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import profilePic from '../images/profilePhoto.jpeg';
+import { cornflowerblue } from 'color-name';
+import { url } from 'inspector';
 
 
 const Profile: React.FC = () => {
@@ -19,12 +21,13 @@ const Profile: React.FC = () => {
           </IonToolbar>
           
         </IonHeader>
-        <IonContent className="ion-padding">
-
+        <IonContent>
+      <div className="profileImage" style={{backgroundImage: "url(" + profilePic + ")", backgroundPosition: "center", backgroundSize:"cover", backgroundRepeat:"no-repeat", height: '100%' }}>
     <main>
-      <div className ="container">
       
-      <img className="profile responsive" height='600' alt ="User Profile" src = {profilePic} ></img>
+       
+      
+     
       <IonNav id = "navbar" className="center">
           <ul id ="nav">
               <li id="about">About</li>
@@ -33,8 +36,9 @@ const Profile: React.FC = () => {
               <li id = "schedule">Schedule</li>
           </ul>
       </IonNav>
-      </div>
+  
     </main>
+    </div>
         </IonContent>
       </IonPage>
     );
