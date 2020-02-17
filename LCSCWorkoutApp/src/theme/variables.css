@@ -75,9 +75,41 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
 
+  --ion-color-darkred: #AC0002;
+  --ion-color-darkred-rgb: 172,0,2;
+  --ion-color-darkred-contrast: #ffffff;
+  --ion-color-darkred-contrast-rgb: 255,255,255;
+  --ion-color-darkred-shade: #970002;
+  --ion-color-darkred-tint: #b41a1b;
+
+  --ion-color-lightred: #FF0003;
+  --ion-color-lightred-rgb: 255,0,3;
+  --ion-color-lightred-contrast: #ffffff;
+  --ion-color-lightred-contrast-rgb: 255,255,255;
+  --ion-color-lightred-shade: #e00003;
+  --ion-color-lightred-tint: #ff1a1c;
+
 
   --ion-background-color: #D02027;
   --ion-font-family: 'Open Sans', sans-serif;
+}
+
+.ion-color-darkred {
+  --ion-color-base: var(--ion-color-darkred);
+  --ion-color-base-rgb: var(--ion-color-darkred-rgb);
+  --ion-color-contrast: var(--ion-color-darkred-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-darkred-contrast-rgb);
+  --ion-color-shade: var(--ion-color-darkred-shade);
+  --ion-color-tint: var(--ion-color-darkred-tint);
+}
+
+.ion-color-lightred {
+  --ion-color-base: var(--ion-color-lightred);
+  --ion-color-base-rgb: var(--ion-color-lightred-rgb);
+  --ion-color-contrast: var(--ion-color-lightred-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-lightred-contrast-rgb);
+  --ion-color-shade: var(--ion-color-lightred-shade);
+  --ion-color-tint: var(--ion-color-lightred-tint);
 }
 
 ion-header {
@@ -192,6 +224,12 @@ button[type="submit"]:active {
 }
 #photos, #schedule{
   background-color: rgb(255, 0, 0);
+}
+
+/* gym page */
+#nameStatus {
+color:white;
+text-shadow: -2px 2px 6px black;
 }
 
 
