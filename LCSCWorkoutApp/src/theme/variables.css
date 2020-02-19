@@ -172,6 +172,7 @@ input.native-input {
 
 
 /* Set a style for all buttons */
+/*
 button[type="submit"] {
   background-color: #FF3233;
   border: 8px solid #AC0002;
@@ -185,6 +186,7 @@ button[type="submit"] {
   font-size: 1em;
   letter-spacing: 1px;
 }
+*/
 button[type="submit"]:active {
   border: 8px solid rgb(99, 5, 7);
   outline: none;
@@ -201,12 +203,7 @@ button[type="submit"]:active {
 }
 
 
-#nav li{
-  list-style-type: none;
-  display: inline;
- 
-  font-size: 300%;
-}
+
 
 .icon{
   font-size: 150%;
@@ -215,15 +212,15 @@ button[type="submit"]:active {
   float: right;
 }
 #navbar{
-  margin-top: 33.7em;
+  margin-top: 50%;
   padding: 0;
 }
 
 #about, #friends{
-  background-color: rgb(143, 55, 55)
+  background-color: darkred;
 }
 #photos, #schedule{
-  background-color: rgb(255, 0, 0);
+  background-color: var(--ion-color-lightred);
 }
 
 /* gym page */
