@@ -2,6 +2,7 @@
   "appId": "com.LCSCWorkoutApp.app",
   "appName": "LCSC-Workout-App",
   "webDir": "build",
-  "npmClient": "npm"
+  "npmClient": "npm",
+  "minVersion": "11.0"
 }
 

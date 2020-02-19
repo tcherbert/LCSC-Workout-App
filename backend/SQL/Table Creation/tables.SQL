@@ -4,7 +4,9 @@ CREATE TABLE users(
 	about TEXT,
 	joined_date DATE,
 	active_profile_image_id SMALLINT,
-	cover_image_id SMALLINT
+	cover_image_id SMALLINT,
+	email varchar(255),
+	password varchar(255)
 );
 
 CREATE TABLE gyms(
