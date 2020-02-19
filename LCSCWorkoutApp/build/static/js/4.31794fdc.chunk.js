@@ -1,0 +1,2 @@
+(this.webpackJsonpLCSCWorkoutApp=this.webpackJsonpLCSCWorkoutApp||[]).push([[4],{172:function(n,t,o){"use strict";o.r(t),o.d(t,"startStatusTap",(function(){return i}));var e=o(29),i=(o(10),function(){var n=window;n.addEventListener("statusTap",(function(){Object(e.g)((function(){var t=n.innerWidth,o=n.innerHeight,i=document.elementFromPoint(t/2,o/2);if(i){var r=i.closest("ion-content");r&&r.componentOnReady().then((function(){Object(e.l)((function(){return r.scrollToTop(300)}))}))}}))}))})}}]);
+//# sourceMappingURL=4.31794fdc.chunk.js.map
