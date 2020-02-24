@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "708046229060",
+    "firebase_url": "https://lcsc-workoutapp.firebaseio.com",
+    "project_id": "lcsc-workoutapp",
+    "storage_bucket": "lcsc-workoutapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708046229060:android:93b6733777def3a7ab3611",
+        "android_client_info": {
+          "package_name": "com.LCSCWorkoutApp.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708046229060-kg3f8283n0divq1ufv4proackj7tb153.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAcFgTJb-wcK8SahIgVKbnADailSjOzzk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708046229060-kg3f8283n0divq1ufv4proackj7tb153.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
