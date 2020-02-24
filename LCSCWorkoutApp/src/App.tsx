@@ -5,6 +5,7 @@ import { IonReactRouter } from '@ionic/react-router';
 import Home from './pages/Home';
 import Profile from './pages/ProfilePage';
 import Gym from './pages/GymPage';
+import Group from './pages/GroupPage';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faSearch, faGrinAlt, faBars } from '@fortawesome/free-solid-svg-icons';
@@ -41,6 +42,7 @@ const App: React.FC = () => (
         <Route path="/home" component={Home} exact={true} />
         <Route path="/profile" component={Profile} exact={true} />
         <Route path="/gym" component={Gym} exact={true}/>
+        <Route path="/group" component={Group} exact={true}/>
         <Route exact path="/" render={() => <Redirect to="/home" />} />
       </IonRouterOutlet>
     </IonReactRouter>
